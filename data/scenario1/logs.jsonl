@@ -1,0 +1,5 @@
+{"timestamp":"2026-01-13T12:03:15","service":"api","level":"ERROR","name":"null_pointer_exception","message":"Unhandled exception in request handler"}
+
+{"timestamp":"2026-01-13T12:03:55","service":"worker","level":"ERROR","name":"timeout_error","message":"Timed out waiting for API response"}
+
+{"timestamp":"2026-01-13T12:04:25","service":"db","level":"ERROR","name":"connection_pool_exhausted","message":"Too many open connections"}

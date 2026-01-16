@@ -1,0 +1,8 @@
+services:
+  frontend:
+    - api
+  api:
+    - worker
+  worker:
+    - db
+  db: []

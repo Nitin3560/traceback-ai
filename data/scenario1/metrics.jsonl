@@ -1,0 +1,12 @@
+{"timestamp":"2026-01-13T11:55:00","service":"api","metric":"latency_p95","value":120}
+{"timestamp":"2026-01-13T11:56:00","service":"worker","metric":"latency_p95","value":90}
+{"timestamp":"2026-01-13T11:57:00","service":"db","metric":"latency_p95","value":70}
+
+{"timestamp":"2026-01-13T12:03:20","service":"api","metric":"latency_p95","value":980}
+{"timestamp":"2026-01-13T12:03:40","service":"api","metric":"error_rate","value":0.22}
+
+{"timestamp":"2026-01-13T12:03:50","service":"worker","metric":"latency_p95","value":640}
+{"timestamp":"2026-01-13T12:04:05","service":"worker","metric":"error_rate","value":0.15}
+
+{"timestamp":"2026-01-13T12:04:20","service":"db","metric":"latency_p95","value":480}
+{"timestamp":"2026-01-13T12:04:30","service":"db","metric":"connections","value":950}
