@@ -11,7 +11,7 @@ The problem this solves: when something breaks across 10+ microservices, figurin
 
 **Ingestion and normalization** - logs, metrics, and deployment events from 10+ microservices arrive in heterogeneous formats. `ingest.py` pulls them in, `normalize.py` standardizes 5+ different telemetry schemas into a unified event format, cutting normalization latency by 60%.
 
-**Anomaly detection** - `anomaly.py` runs Z-score based detection with time-window querying over the normalized event stream. This reduces false-positive failure signals by 30% compared to simple threshold-based baselines — the key difference being that Z-score detection adapts to each service's baseline behavior rather than applying a fixed cutoff.
+**Anomaly detection** - `anomaly.py` runs Z-score based detection with time-window querying over the normalized event stream. This reduces false-positive failure signals by 30% compared to simple threshold-based baselines, the key difference being that Z-score detection adapts to each service's baseline behavior rather than applying a fixed cutoff.
 
 **Dependency graph and causal traversal** - `graph.py` models inter-service dependencies. `causal.py` traverses that graph to trace how a failure propagates across service boundaries, following dependency hops to find where the failure actually originated rather than where it was first observed.
 
